@@ -22,7 +22,7 @@ async fn main(){
             y -= 1.0;
         }
 
-        draw_circle(x, y, 16.0, YELLOW);
+        draw_circle(x, y, 16.0, RED);
 
         next_frame().await
     }
