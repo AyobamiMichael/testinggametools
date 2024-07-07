@@ -21,6 +21,8 @@ async fn main(){
         if is_key_down(KeyCode::Up) {
             y -= 1.0;
         }
+        
+        draw_circle(screen_width() - 30.0, screen_height() - 30.0, 15.0, YELLOW);
 
         draw_circle(x, y, 16.0, RED);
 
